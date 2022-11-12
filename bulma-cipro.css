@@ -1,0 +1,443 @@
+.cipro.cipro-100 > .cipro-slice, .cipro.cipro-99 > .cipro-slice, .cipro.cipro-98 > .cipro-slice, .cipro.cipro-97 > .cipro-slice, .cipro.cipro-96 > .cipro-slice, .cipro.cipro-95 > .cipro-slice, .cipro.cipro-94 > .cipro-slice, .cipro.cipro-93 > .cipro-slice, .cipro.cipro-92 > .cipro-slice, .cipro.cipro-91 > .cipro-slice, .cipro.cipro-90 > .cipro-slice, .cipro.cipro-89 > .cipro-slice, .cipro.cipro-88 > .cipro-slice, .cipro.cipro-87 > .cipro-slice, .cipro.cipro-86 > .cipro-slice, .cipro.cipro-85 > .cipro-slice, .cipro.cipro-84 > .cipro-slice, .cipro.cipro-83 > .cipro-slice, .cipro.cipro-82 > .cipro-slice, .cipro.cipro-81 > .cipro-slice, .cipro.cipro-80 > .cipro-slice, .cipro.cipro-79 > .cipro-slice, .cipro.cipro-78 > .cipro-slice, .cipro.cipro-77 > .cipro-slice, .cipro.cipro-76 > .cipro-slice, .cipro.cipro-75 > .cipro-slice, .cipro.cipro-74 > .cipro-slice, .cipro.cipro-73 > .cipro-slice, .cipro.cipro-72 > .cipro-slice, .cipro.cipro-71 > .cipro-slice, .cipro.cipro-70 > .cipro-slice, .cipro.cipro-69 > .cipro-slice, .cipro.cipro-68 > .cipro-slice, .cipro.cipro-67 > .cipro-slice, .cipro.cipro-66 > .cipro-slice, .cipro.cipro-65 > .cipro-slice, .cipro.cipro-64 > .cipro-slice, .cipro.cipro-63 > .cipro-slice, .cipro.cipro-62 > .cipro-slice, .cipro.cipro-61 > .cipro-slice, .cipro.cipro-60 > .cipro-slice, .cipro.cipro-59 > .cipro-slice, .cipro.cipro-58 > .cipro-slice, .cipro.cipro-57 > .cipro-slice, .cipro.cipro-56 > .cipro-slice, .cipro.cipro-55 > .cipro-slice, .cipro.cipro-54 > .cipro-slice, .cipro.cipro-53 > .cipro-slice, .cipro.cipro-52 > .cipro-slice, .cipro.cipro-51 > .cipro-slice {
+  clip: rect(auto, auto, auto, auto);
+}
+
+.cipro.cipro-100 > .cipro-slice::after, .cipro.cipro-99 > .cipro-slice::after, .cipro.cipro-98 > .cipro-slice::after, .cipro.cipro-97 > .cipro-slice::after, .cipro.cipro-96 > .cipro-slice::after, .cipro.cipro-95 > .cipro-slice::after, .cipro.cipro-94 > .cipro-slice::after, .cipro.cipro-93 > .cipro-slice::after, .cipro.cipro-92 > .cipro-slice::after, .cipro.cipro-91 > .cipro-slice::after, .cipro.cipro-90 > .cipro-slice::after, .cipro.cipro-89 > .cipro-slice::after, .cipro.cipro-88 > .cipro-slice::after, .cipro.cipro-87 > .cipro-slice::after, .cipro.cipro-86 > .cipro-slice::after, .cipro.cipro-85 > .cipro-slice::after, .cipro.cipro-84 > .cipro-slice::after, .cipro.cipro-83 > .cipro-slice::after, .cipro.cipro-82 > .cipro-slice::after, .cipro.cipro-81 > .cipro-slice::after, .cipro.cipro-80 > .cipro-slice::after, .cipro.cipro-79 > .cipro-slice::after, .cipro.cipro-78 > .cipro-slice::after, .cipro.cipro-77 > .cipro-slice::after, .cipro.cipro-76 > .cipro-slice::after, .cipro.cipro-75 > .cipro-slice::after, .cipro.cipro-74 > .cipro-slice::after, .cipro.cipro-73 > .cipro-slice::after, .cipro.cipro-72 > .cipro-slice::after, .cipro.cipro-71 > .cipro-slice::after, .cipro.cipro-70 > .cipro-slice::after, .cipro.cipro-69 > .cipro-slice::after, .cipro.cipro-68 > .cipro-slice::after, .cipro.cipro-67 > .cipro-slice::after, .cipro.cipro-66 > .cipro-slice::after, .cipro.cipro-65 > .cipro-slice::after, .cipro.cipro-64 > .cipro-slice::after, .cipro.cipro-63 > .cipro-slice::after, .cipro.cipro-62 > .cipro-slice::after, .cipro.cipro-61 > .cipro-slice::after, .cipro.cipro-60 > .cipro-slice::after, .cipro.cipro-59 > .cipro-slice::after, .cipro.cipro-58 > .cipro-slice::after, .cipro.cipro-57 > .cipro-slice::after, .cipro.cipro-56 > .cipro-slice::after, .cipro.cipro-55 > .cipro-slice::after, .cipro.cipro-54 > .cipro-slice::after, .cipro.cipro-53 > .cipro-slice::after, .cipro.cipro-52 > .cipro-slice::after, .cipro.cipro-51 > .cipro-slice::after, .cipro > .cipro-slice::before {
+  content: "";
+  display: block;
+  position: absolute;
+  border: solid 0.08em #767676;
+  width: 0.84em;
+  height: 0.84em;
+  clip: rect(0, 0.5em, 1em, 0);
+  border-radius: 50%;
+  transform: rotate(0deg);
+}
+
+.cipro.cipro-100 > .cipro-slice::after, .cipro.cipro-99 > .cipro-slice::after, .cipro.cipro-98 > .cipro-slice::after, .cipro.cipro-97 > .cipro-slice::after, .cipro.cipro-96 > .cipro-slice::after, .cipro.cipro-95 > .cipro-slice::after, .cipro.cipro-94 > .cipro-slice::after, .cipro.cipro-93 > .cipro-slice::after, .cipro.cipro-92 > .cipro-slice::after, .cipro.cipro-91 > .cipro-slice::after, .cipro.cipro-90 > .cipro-slice::after, .cipro.cipro-89 > .cipro-slice::after, .cipro.cipro-88 > .cipro-slice::after, .cipro.cipro-87 > .cipro-slice::after, .cipro.cipro-86 > .cipro-slice::after, .cipro.cipro-85 > .cipro-slice::after, .cipro.cipro-84 > .cipro-slice::after, .cipro.cipro-83 > .cipro-slice::after, .cipro.cipro-82 > .cipro-slice::after, .cipro.cipro-81 > .cipro-slice::after, .cipro.cipro-80 > .cipro-slice::after, .cipro.cipro-79 > .cipro-slice::after, .cipro.cipro-78 > .cipro-slice::after, .cipro.cipro-77 > .cipro-slice::after, .cipro.cipro-76 > .cipro-slice::after, .cipro.cipro-75 > .cipro-slice::after, .cipro.cipro-74 > .cipro-slice::after, .cipro.cipro-73 > .cipro-slice::after, .cipro.cipro-72 > .cipro-slice::after, .cipro.cipro-71 > .cipro-slice::after, .cipro.cipro-70 > .cipro-slice::after, .cipro.cipro-69 > .cipro-slice::after, .cipro.cipro-68 > .cipro-slice::after, .cipro.cipro-67 > .cipro-slice::after, .cipro.cipro-66 > .cipro-slice::after, .cipro.cipro-65 > .cipro-slice::after, .cipro.cipro-64 > .cipro-slice::after, .cipro.cipro-63 > .cipro-slice::after, .cipro.cipro-62 > .cipro-slice::after, .cipro.cipro-61 > .cipro-slice::after, .cipro.cipro-60 > .cipro-slice::after, .cipro.cipro-59 > .cipro-slice::after, .cipro.cipro-58 > .cipro-slice::after, .cipro.cipro-57 > .cipro-slice::after, .cipro.cipro-56 > .cipro-slice::after, .cipro.cipro-55 > .cipro-slice::after, .cipro.cipro-54 > .cipro-slice::after, .cipro.cipro-53 > .cipro-slice::after, .cipro.cipro-52 > .cipro-slice::after, .cipro.cipro-51 > .cipro-slice::after {
+  transform: rotate(180deg);
+}
+
+.cipro {
+  font-size: 100px;
+  position: relative;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-color: #dcdcdc;
+}
+.cipro * {
+  box-sizing: content-box;
+}
+.cipro *::before {
+  box-sizing: content-box;
+}
+.cipro *::after {
+  box-sizing: content-box;
+}
+.cipro > .cipro-label {
+  display: block;
+  position: absolute;
+  max-width: 100%;
+  z-index: 3;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 0.16em;
+  color: #434343;
+}
+.cipro::after {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  background-color: #fefefe;
+  width: 0.84em;
+  height: 0.84em;
+  transform: translate(-50%, -50%);
+}
+.cipro > .cipro-slice {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  width: 1em;
+  height: 1em;
+  clip: rect(0, 1em, 1em, 0.5em);
+}
+.cipro.cipro-1 > .cipro-slice::before {
+  transform: rotate(3.6deg);
+}
+.cipro.cipro-2 > .cipro-slice::before {
+  transform: rotate(7.2deg);
+}
+.cipro.cipro-3 > .cipro-slice::before {
+  transform: rotate(10.8deg);
+}
+.cipro.cipro-4 > .cipro-slice::before {
+  transform: rotate(14.4deg);
+}
+.cipro.cipro-5 > .cipro-slice::before {
+  transform: rotate(18deg);
+}
+.cipro.cipro-6 > .cipro-slice::before {
+  transform: rotate(21.6deg);
+}
+.cipro.cipro-7 > .cipro-slice::before {
+  transform: rotate(25.2deg);
+}
+.cipro.cipro-8 > .cipro-slice::before {
+  transform: rotate(28.8deg);
+}
+.cipro.cipro-9 > .cipro-slice::before {
+  transform: rotate(32.4deg);
+}
+.cipro.cipro-10 > .cipro-slice::before {
+  transform: rotate(36deg);
+}
+.cipro.cipro-11 > .cipro-slice::before {
+  transform: rotate(39.6deg);
+}
+.cipro.cipro-12 > .cipro-slice::before {
+  transform: rotate(43.2deg);
+}
+.cipro.cipro-13 > .cipro-slice::before {
+  transform: rotate(46.8deg);
+}
+.cipro.cipro-14 > .cipro-slice::before {
+  transform: rotate(50.4deg);
+}
+.cipro.cipro-15 > .cipro-slice::before {
+  transform: rotate(54deg);
+}
+.cipro.cipro-16 > .cipro-slice::before {
+  transform: rotate(57.6deg);
+}
+.cipro.cipro-17 > .cipro-slice::before {
+  transform: rotate(61.2deg);
+}
+.cipro.cipro-18 > .cipro-slice::before {
+  transform: rotate(64.8deg);
+}
+.cipro.cipro-19 > .cipro-slice::before {
+  transform: rotate(68.4deg);
+}
+.cipro.cipro-20 > .cipro-slice::before {
+  transform: rotate(72deg);
+}
+.cipro.cipro-21 > .cipro-slice::before {
+  transform: rotate(75.6deg);
+}
+.cipro.cipro-22 > .cipro-slice::before {
+  transform: rotate(79.2deg);
+}
+.cipro.cipro-23 > .cipro-slice::before {
+  transform: rotate(82.8deg);
+}
+.cipro.cipro-24 > .cipro-slice::before {
+  transform: rotate(86.4deg);
+}
+.cipro.cipro-25 > .cipro-slice::before {
+  transform: rotate(90deg);
+}
+.cipro.cipro-26 > .cipro-slice::before {
+  transform: rotate(93.6deg);
+}
+.cipro.cipro-27 > .cipro-slice::before {
+  transform: rotate(97.2deg);
+}
+.cipro.cipro-28 > .cipro-slice::before {
+  transform: rotate(100.8deg);
+}
+.cipro.cipro-29 > .cipro-slice::before {
+  transform: rotate(104.4deg);
+}
+.cipro.cipro-30 > .cipro-slice::before {
+  transform: rotate(108deg);
+}
+.cipro.cipro-31 > .cipro-slice::before {
+  transform: rotate(111.6deg);
+}
+.cipro.cipro-32 > .cipro-slice::before {
+  transform: rotate(115.2deg);
+}
+.cipro.cipro-33 > .cipro-slice::before {
+  transform: rotate(118.8deg);
+}
+.cipro.cipro-34 > .cipro-slice::before {
+  transform: rotate(122.4deg);
+}
+.cipro.cipro-35 > .cipro-slice::before {
+  transform: rotate(126deg);
+}
+.cipro.cipro-36 > .cipro-slice::before {
+  transform: rotate(129.6deg);
+}
+.cipro.cipro-37 > .cipro-slice::before {
+  transform: rotate(133.2deg);
+}
+.cipro.cipro-38 > .cipro-slice::before {
+  transform: rotate(136.8deg);
+}
+.cipro.cipro-39 > .cipro-slice::before {
+  transform: rotate(140.4deg);
+}
+.cipro.cipro-40 > .cipro-slice::before {
+  transform: rotate(144deg);
+}
+.cipro.cipro-41 > .cipro-slice::before {
+  transform: rotate(147.6deg);
+}
+.cipro.cipro-42 > .cipro-slice::before {
+  transform: rotate(151.2deg);
+}
+.cipro.cipro-43 > .cipro-slice::before {
+  transform: rotate(154.8deg);
+}
+.cipro.cipro-44 > .cipro-slice::before {
+  transform: rotate(158.4deg);
+}
+.cipro.cipro-45 > .cipro-slice::before {
+  transform: rotate(162deg);
+}
+.cipro.cipro-46 > .cipro-slice::before {
+  transform: rotate(165.6deg);
+}
+.cipro.cipro-47 > .cipro-slice::before {
+  transform: rotate(169.2deg);
+}
+.cipro.cipro-48 > .cipro-slice::before {
+  transform: rotate(172.8deg);
+}
+.cipro.cipro-49 > .cipro-slice::before {
+  transform: rotate(176.4deg);
+}
+.cipro.cipro-50 > .cipro-slice::before {
+  transform: rotate(180deg);
+}
+.cipro.cipro-51 > .cipro-slice::before {
+  transform: rotate(183.6deg);
+}
+.cipro.cipro-52 > .cipro-slice::before {
+  transform: rotate(187.2deg);
+}
+.cipro.cipro-53 > .cipro-slice::before {
+  transform: rotate(190.8deg);
+}
+.cipro.cipro-54 > .cipro-slice::before {
+  transform: rotate(194.4deg);
+}
+.cipro.cipro-55 > .cipro-slice::before {
+  transform: rotate(198deg);
+}
+.cipro.cipro-56 > .cipro-slice::before {
+  transform: rotate(201.6deg);
+}
+.cipro.cipro-57 > .cipro-slice::before {
+  transform: rotate(205.2deg);
+}
+.cipro.cipro-58 > .cipro-slice::before {
+  transform: rotate(208.8deg);
+}
+.cipro.cipro-59 > .cipro-slice::before {
+  transform: rotate(212.4deg);
+}
+.cipro.cipro-60 > .cipro-slice::before {
+  transform: rotate(216deg);
+}
+.cipro.cipro-61 > .cipro-slice::before {
+  transform: rotate(219.6deg);
+}
+.cipro.cipro-62 > .cipro-slice::before {
+  transform: rotate(223.2deg);
+}
+.cipro.cipro-63 > .cipro-slice::before {
+  transform: rotate(226.8deg);
+}
+.cipro.cipro-64 > .cipro-slice::before {
+  transform: rotate(230.4deg);
+}
+.cipro.cipro-65 > .cipro-slice::before {
+  transform: rotate(234deg);
+}
+.cipro.cipro-66 > .cipro-slice::before {
+  transform: rotate(237.6deg);
+}
+.cipro.cipro-67 > .cipro-slice::before {
+  transform: rotate(241.2deg);
+}
+.cipro.cipro-68 > .cipro-slice::before {
+  transform: rotate(244.8deg);
+}
+.cipro.cipro-69 > .cipro-slice::before {
+  transform: rotate(248.4deg);
+}
+.cipro.cipro-70 > .cipro-slice::before {
+  transform: rotate(252deg);
+}
+.cipro.cipro-71 > .cipro-slice::before {
+  transform: rotate(255.6deg);
+}
+.cipro.cipro-72 > .cipro-slice::before {
+  transform: rotate(259.2deg);
+}
+.cipro.cipro-73 > .cipro-slice::before {
+  transform: rotate(262.8deg);
+}
+.cipro.cipro-74 > .cipro-slice::before {
+  transform: rotate(266.4deg);
+}
+.cipro.cipro-75 > .cipro-slice::before {
+  transform: rotate(270deg);
+}
+.cipro.cipro-76 > .cipro-slice::before {
+  transform: rotate(273.6deg);
+}
+.cipro.cipro-77 > .cipro-slice::before {
+  transform: rotate(277.2deg);
+}
+.cipro.cipro-78 > .cipro-slice::before {
+  transform: rotate(280.8deg);
+}
+.cipro.cipro-79 > .cipro-slice::before {
+  transform: rotate(284.4deg);
+}
+.cipro.cipro-80 > .cipro-slice::before {
+  transform: rotate(288deg);
+}
+.cipro.cipro-81 > .cipro-slice::before {
+  transform: rotate(291.6deg);
+}
+.cipro.cipro-82 > .cipro-slice::before {
+  transform: rotate(295.2deg);
+}
+.cipro.cipro-83 > .cipro-slice::before {
+  transform: rotate(298.8deg);
+}
+.cipro.cipro-84 > .cipro-slice::before {
+  transform: rotate(302.4deg);
+}
+.cipro.cipro-85 > .cipro-slice::before {
+  transform: rotate(306deg);
+}
+.cipro.cipro-86 > .cipro-slice::before {
+  transform: rotate(309.6deg);
+}
+.cipro.cipro-87 > .cipro-slice::before {
+  transform: rotate(313.2deg);
+}
+.cipro.cipro-88 > .cipro-slice::before {
+  transform: rotate(316.8deg);
+}
+.cipro.cipro-89 > .cipro-slice::before {
+  transform: rotate(320.4deg);
+}
+.cipro.cipro-90 > .cipro-slice::before {
+  transform: rotate(324deg);
+}
+.cipro.cipro-91 > .cipro-slice::before {
+  transform: rotate(327.6deg);
+}
+.cipro.cipro-92 > .cipro-slice::before {
+  transform: rotate(331.2deg);
+}
+.cipro.cipro-93 > .cipro-slice::before {
+  transform: rotate(334.8deg);
+}
+.cipro.cipro-94 > .cipro-slice::before {
+  transform: rotate(338.4deg);
+}
+.cipro.cipro-95 > .cipro-slice::before {
+  transform: rotate(342deg);
+}
+.cipro.cipro-96 > .cipro-slice::before {
+  transform: rotate(345.6deg);
+}
+.cipro.cipro-97 > .cipro-slice::before {
+  transform: rotate(349.2deg);
+}
+.cipro.cipro-98 > .cipro-slice::before {
+  transform: rotate(352.8deg);
+}
+.cipro.cipro-99 > .cipro-slice::before {
+  transform: rotate(356.4deg);
+}
+.cipro.cipro-100 > .cipro-slice::before {
+  transform: rotate(360deg);
+}
+.cipro.cipro-primary {
+  background-color: #ebfffc;
+}
+.cipro.cipro-primary > .cipro-slice::before {
+  border-color: hsl(171deg, 100%, 41%);
+}
+.cipro.cipro-primary > .cipro-slice::after {
+  border-color: hsl(171deg, 100%, 41%);
+}
+.cipro.cipro-primary > .cipro-label {
+  color: #00947e;
+}
+.cipro.cipro-link {
+  background-color: #eff1fa;
+}
+.cipro.cipro-link > .cipro-slice::before {
+  border-color: hsl(229deg, 53%, 53%);
+}
+.cipro.cipro-link > .cipro-slice::after {
+  border-color: hsl(229deg, 53%, 53%);
+}
+.cipro.cipro-link > .cipro-label {
+  color: #3850b7;
+}
+.cipro.cipro-info {
+  background-color: #eff5fb;
+}
+.cipro.cipro-info > .cipro-slice::before {
+  border-color: hsl(207deg, 61%, 53%);
+}
+.cipro.cipro-info > .cipro-slice::after {
+  border-color: hsl(207deg, 61%, 53%);
+}
+.cipro.cipro-info > .cipro-label {
+  color: #296fa8;
+}
+.cipro.cipro-success {
+  background-color: #effaf5;
+}
+.cipro.cipro-success > .cipro-slice::before {
+  border-color: hsl(153deg, 53%, 53%);
+}
+.cipro.cipro-success > .cipro-slice::after {
+  border-color: hsl(153deg, 53%, 53%);
+}
+.cipro.cipro-success > .cipro-label {
+  color: #257953;
+}
+.cipro.cipro-warning {
+  background-color: #fffaeb;
+}
+.cipro.cipro-warning > .cipro-slice::before {
+  border-color: hsl(44deg, 100%, 77%);
+}
+.cipro.cipro-warning > .cipro-slice::after {
+  border-color: hsl(44deg, 100%, 77%);
+}
+.cipro.cipro-warning > .cipro-label {
+  color: #946c00;
+}
+.cipro.cipro-danger {
+  background-color: #feecf0;
+}
+.cipro.cipro-danger > .cipro-slice::before {
+  border-color: hsl(348deg, 86%, 61%);
+}
+.cipro.cipro-danger > .cipro-slice::after {
+  border-color: hsl(348deg, 86%, 61%);
+}
+.cipro.cipro-danger > .cipro-label {
+  color: #cc0f35;
+}

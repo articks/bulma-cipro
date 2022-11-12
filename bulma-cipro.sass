@@ -1,0 +1,104 @@
+
+$cipro-size: 100px
+$cipro-bar-size: 0.08
+$cipro-bar-color: #767676
+$cipro-scale-color: #dcdcdc
+$cipro-bg-color: #fefefe
+$cipro-label-color: #434343
+
+%rect-auto
+    clip: rect(auto, auto, auto, auto)
+
+%pie
+    content: ""
+    display: block
+    position: absolute
+    border: solid (1em * $cipro-bar-size) $cipro-bar-color
+    width: 1em * (1 - 2 * $cipro-bar-size)
+    height: 1em * (1 - 2 * $cipro-bar-size)
+    clip: rect(0, 0.5em, 1em, 0)
+    border-radius: 50%
+    transform: rotate(0deg)
+
+%pie-fill
+    transform: rotate(180deg)
+
+.cipro
+    & *
+        box-sizing: content-box
+    & *::before
+        box-sizing: content-box
+    & *::after
+        box-sizing: content-box
+
+    font-size: $cipro-size
+    position: relative
+    width: 1em
+    height: 1em
+    border-radius: 50%
+    margin: 0 auto
+    background-color: $cipro-scale-color
+
+    &>.cipro-label
+        display: block
+        position: absolute
+        max-width: 100%
+        z-index: 3
+        left: 50%
+        top: 50%
+        transform: translate(-50%,-50%)
+        text-align: center
+        font-size: 1em * 2.5 * $cipro-bar-size
+        color: $cipro-label-color
+
+    &::after
+        content: ""
+        display: block
+        position: absolute
+        z-index: 2
+        top: 50%
+        left: 50%
+        border-radius: 50%
+        background-color: $cipro-bg-color
+        width: 1em * (1 - 2 * $cipro-bar-size)
+        height: 1em * (1 - 2 * $cipro-bar-size)
+        transform: translate(-50%,-50%)
+
+    &>.cipro-slice
+        display: block
+        position: absolute
+        z-index: 1
+        width: 1em
+        height: 1em
+        clip: rect(0, 1em, 1em, 0.5em)
+
+    &>.cipro-slice::before
+        @extend %pie
+
+    @for $i from 51 through 100
+
+        &.cipro-#{$i}>.cipro-slice
+            @extend %rect-auto
+
+        &.cipro-#{$i}>.cipro-slice::after
+            @extend %pie
+            @extend %pie-fill
+
+    @for $i from 1 through 100
+        &.cipro-#{$i}>.cipro-slice::before
+            transform: rotate( ( 360 * 0.01 * $i) + deg)
+
+    // use bulma colors
+    @each $name, $pair in $colors
+        @if length($pair) >= 4
+            $color: nth($pair, 1)
+            $color-light: nth($pair, 3)
+            $color-dark: nth($pair, 4)
+            &.cipro-#{$name}
+                background-color: $color-light
+            &.cipro-#{$name}>.cipro-slice::before
+                border-color: $color
+            &.cipro-#{$name}>.cipro-slice::after
+                border-color: $color
+            &.cipro-#{$name}>.cipro-label
+                color: $color-dark

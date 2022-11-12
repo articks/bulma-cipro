@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <head>
+
+        <meta charset="utf-8">
+
+        <title>Pure CSS Percentage Circle</title>
+
+
+        <link rel="stylesheet" href="bulma-cipro.css">
+
+
+        <style>
+            .cipro { float:left; }
+        </style>
+
+    </head>
+
+    <body>
+
+
+
+
+
+
+        <div id="area"></div>
+
+        <script>
+            var html = "";
+            for(var i=0;i<=100;i++) {
+                html += ""+
+                    "<div class=\"cipro cipro-"+i+"\">"+
+                        "<div class=\"cipro-slice\"></div>"+
+                        "<div class=\"cipro-label\">"+i+"%</div>"+
+                    "</div>";
+            }
+            var colors = ["primary","link","info","success","warning","danger"];
+            for(var c in colors) {
+                for(var i=0;i<=100;i++) {
+                    html += ""+
+                        "<div class=\"cipro cipro-"+colors[c]+" cipro-"+i+"\">"+
+                            "<div class=\"cipro-slice\"></div>"+
+                            "<div class=\"cipro-label\">"+i+"%</div>"+
+                        "</div>";
+                }
+            }
+            document.getElementById("area").innerHTML = html;
+        </script>
+
+
+
+
+
+    </body>
+</html>
